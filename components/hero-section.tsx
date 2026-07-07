@@ -73,7 +73,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
           >
             <h2
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-none tracking-tight mb-6"
+              className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-none tracking-tight mb-6"
               style={{
                 textShadow: "3px 3px 8px rgba(0, 0, 0, 0.9), 0px 0px 15px rgba(0, 0, 0, 0.7)",
               }}

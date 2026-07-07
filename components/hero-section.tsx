@@ -100,7 +100,7 @@ export function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.2, ease: [0.21, 0.47, 0.32, 0.98] }}
       >
-        <BlurPanel className="mx-6 mb-6 px-6 py-4 bg-black/24 backdrop-blur-md border-white/20">
+        <BlurPanel className="mx-2 sm:mx-4 md:mx-6 mb-6 px-4 sm:px-6 py-4 bg-black/24 backdrop-blur-md border-white/20">
           <div className="flex items-center justify-center gap-6 text-white/90">
             <div className="flex items-center gap-2">
               <PackageCheck className="w-4 h-4 text-green-400" />

@@ -33,7 +33,7 @@ export function NewsletterSection() {
       <div className="container-custom">
         <Reveal>
           <div className="max-w-2xl mx-auto">
-            <BlurPanel className="p-8 lg:p-12 bg-white/40 backdrop-blur-md grain-texture">
+            <BlurPanel className="p-4 sm:p-6 md:p-8 lg:p-12 bg-white/40 backdrop-blur-md grain-texture">
               <div className="text-center mb-8">
                 <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
                   <AnimatedText text="Stay ahead of " delay={0.2} />

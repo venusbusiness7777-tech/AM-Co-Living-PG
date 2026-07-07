@@ -129,7 +129,7 @@ export function MaterialsSection() {
                 <motion.button
                   key={material.id}
                   className={cn(
-                    "px-6 py-3 rounded-full font-medium transition-all duration-300 backdrop-blur-md",
+                    "px-3 sm:px-4 md:px-6 py-2 sm:py-3 text-sm sm:text-base rounded-full font-medium transition-all duration-300 backdrop-blur-md",
                     activeMaterial === material.id
                       ? "bg-white text-neutral-900"
                       : "bg-white/20 text-white hover:bg-white/30",

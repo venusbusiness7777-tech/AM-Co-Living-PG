@@ -97,7 +97,7 @@ export function CollectionStrip() {
 
       <div className="relative">
         <motion.div
-          className="flex gap-8 px-6"
+          className="flex gap-4 sm:gap-6 md:gap-8 px-2 sm:px-4 md:px-6"
           style={{ x }}
           drag="x"
           dragConstraints={{ left: -maxDrag, right: 0 }}

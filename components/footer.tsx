@@ -39,7 +39,7 @@ export function Footer() {
     <footer className="bg-white/[0.02] border-t border-white/[0.02]">
       <div className="container-custom py-16 lg:py-20">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 md:gap-12 lg:gap-16 mb-8 sm:mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-4">
             <motion.div
@@ -71,7 +71,7 @@ export function Footer() {
 
           {/* Links Sections */}
           <div className="lg:col-span-8">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
               {Object.entries(footerLinks).map(([category, links], index) => (
                 <motion.div
                   key={category}

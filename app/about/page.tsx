@@ -75,12 +75,12 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-900 mb-4">
                 Why Choose AM Co-Living?
               </h2>
-              <p className="text-base md:text-lg text-neutral-600 max-w-3xl mx-auto">
+              <p className="text-base md:text-lg text-neutral-600 max-w-3xl mx-auto font-sans">
                 We provide everything you need for a comfortable, safe, and fulfilling living experience.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 font-sans">
               {features.map((feature) => (
                 <div
                   key={feature}
@@ -109,7 +109,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-900 mb-6">
                 A Community You'll Love
               </h2>
-              <p className="text-base md:text-lg text-neutral-600 leading-relaxed text-justify">
+              <p className="text-base md:text-lg text-[#040002] leading-relaxed text-justify font-sans">
                 More than just a PG, AM Co-Living is a place where friendships grow, opportunities begin, and every resident enjoys a comfortable lifestyle with modern facilities and a supportive environment. We're dedicated to creating a space where you can truly belong.
               </p>
             </div>

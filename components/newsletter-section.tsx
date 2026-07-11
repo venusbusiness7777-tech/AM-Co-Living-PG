@@ -46,7 +46,7 @@ export function NewsletterSection() {
         <Reveal>
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#ff7f2d] mb-4">
+              <h2 className="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl" style={{ color: 'rgb(255, 125, 0)' }}>
                 Frequently Asked Questions
               </h2>
               <p className="text-base md:text-lg text-neutral-600">

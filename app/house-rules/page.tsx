@@ -39,7 +39,7 @@ const rules = [
     title: "Safety & Security",
     items: [
       "Always lock your room before leaving.",
-      "Do not share room keys or access cards.",
+      "Do not share room keys or face access cards.",
       "Report suspicious activities or maintenance issues immediately.",
       "CCTV surveillance operates throughout common areas for everyone's safety.",
     ],

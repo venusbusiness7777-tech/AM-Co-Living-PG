@@ -31,8 +31,6 @@ export function Footer() {
 
   const socialLinks = [
     { name: "Instagram", icon: Instagram, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
-    { name: "Facebook", icon: Facebook, href: "#" },
   ]
 
   return (

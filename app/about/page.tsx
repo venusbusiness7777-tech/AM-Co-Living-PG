@@ -66,6 +66,9 @@ export default function AboutPage() {
         <section className="py-16 md:py-24 lg:py-32">
           <div className="container-custom">
             <div className="text-center mb-12 md:mb-16">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[rgb(58,58,52)] mb-6" style={{ fontSize: "23px" }}>
+                About
+              </h1>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#f56b35] mb-6" style={{ fontSize: "33px" }}>
                 About AM Co-Living PG
               </h1>

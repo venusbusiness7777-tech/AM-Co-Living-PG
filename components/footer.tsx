@@ -31,7 +31,7 @@ export function Footer() {
               viewport={{ once: true }}
             >
               <h3 className="text-2xl font-bold text-[#ff7d00] mb-4 font-sans">AM Co-Living PG</h3>
-              <p className="text-sm text-neutral-600 mb-6 leading-relaxed font-sans">
+              <p className="text-sm text-neutral-600 mb-6 leading-relaxed font-sans" style={{ fontFamily: '"Geist", sans-serif' }}>
                 Happiness Like A Home. Safe, comfortable, and fully furnished accommodation for students and working professionals.
               </p>
               <div className="flex space-x-4">
@@ -62,7 +62,7 @@ export function Footer() {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <h4 className="font-semibold text-neutral-900 mb-4">{category}</h4>
+                  <h4 className="font-semibold text-neutral-900 mb-4">{category === 'PG' ? 'AM Co-Living PG' : category}</h4>
                   <ul className="space-y-3">
                     {links.map((link) => (
                       <li key={link.name}>

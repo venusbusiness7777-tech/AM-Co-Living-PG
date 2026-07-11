@@ -46,11 +46,11 @@ export function NewsletterSection() {
         <Reveal>
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#ff7f2d] mb-4">
                 Frequently Asked Questions
               </h2>
               <p className="text-base md:text-lg text-neutral-600">
-                Find answers to common questions about our co-living spaces
+                Find answers to common questions about our AM Co-Living spaces
               </p>
             </div>
 

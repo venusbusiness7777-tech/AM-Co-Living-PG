@@ -93,8 +93,8 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-neutral-500 text-center">
-            <p>&copy; {currentYear} AM Co-Living PG. All rights reserved.</p>
+          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-center">
+            <p style={{ color: '#181618' }}>&copy; {currentYear} AM Co-Living PG. All rights reserved.</p>
             <div className="flex space-x-6">
               <a href="#" className="hover:text-neutral-700 transition-colors">
                 Privacy Policy

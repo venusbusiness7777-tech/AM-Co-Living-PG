@@ -40,7 +40,7 @@ export function Header() {
       transition={{ duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }}
     >
       <div className="container-custom">
-        <div className="flex items-center justify-between h-14 md:h-16">
+        <div className="flex items-center justify-between h-14 md:h-16" style={{ fontFamily: '"Geist", sans-serif' }}>
           {/* Logo - Left Aligned */}
           <motion.div className="flex-shrink-0" whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
             <Link

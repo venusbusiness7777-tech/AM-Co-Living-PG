@@ -116,7 +116,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-900 mb-4">
                 Why Choose AM Co-Living?
               </h2>
-              <p className="text-base md:text-lg text-neutral-600 max-w-3xl mx-auto font-sans">
+              <p className="text-base md:text-lg text-neutral-600 max-w-4xl mx-auto font-sans">
                 We provide everything you need for a comfortable, safe, and fulfilling living experience.
               </p>
             </div>

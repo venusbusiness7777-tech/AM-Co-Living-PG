@@ -30,7 +30,7 @@ export function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-[#ff7d00] mb-4 font-sans">AM Co-Living PG</h3>
+              <h3 className="text-2xl font-bold text-[#ff7d00] mb-4 font-sans" style={{ fontFamily: '"Geist", sans-serif' }}>AM Co-Living PG</h3>
               <p className="text-sm text-neutral-600 mb-6 leading-relaxed font-sans" style={{ fontFamily: '"Geist", sans-serif' }}>
                 Happiness Like A Home. Safe, comfortable, and fully furnished accommodation for students and working professionals.
               </p>
@@ -53,7 +53,7 @@ export function Footer() {
 
           {/* Links Sections */}
           <div className="lg:col-span-8">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 lg:gap-12" style={{ fontFamily: '"Geist", sans-serif' }}>
               {Object.entries(footerLinks).map(([category, links], index) => (
                 <motion.div
                   key={category}

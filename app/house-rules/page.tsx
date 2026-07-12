@@ -207,11 +207,11 @@ export default function HouseRulesPage() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#f6f0f0", fontFamily: '"Quicksand", sans-serif' }}>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: "#f6f0f0", fontFamily: '"Geist", sans-serif', textAlign: "center" }}>
                 Important Notice!
               </h2>
             </div>
-            <div className="space-y-4" style={{ color: "#0e0000", fontFamily: '"Quicksand", sans-serif' }}>
+            <div className="space-y-4" style={{ color: "#0e0000", fontFamily: '"Geist", sans-serif' }}>
               <p className="leading-relaxed" style={{ textAlign: "justify" }}>
                 AM Co-Living PG accepts payments only through the official payment system. Any payment made directly to an employee, agent, or any individual through cash, bank transfer, or any other mode is not valid and will not be considered for booking confirmation.
               </p>

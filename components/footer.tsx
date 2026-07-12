@@ -1,17 +1,14 @@
 "use client"
 import { motion } from "framer-motion"
-import { Instagram, Facebook, Linkedin, Youtube, Mail, Phone } from "lucide-react"
+import { Instagram, Mail, Phone } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const navigationLinks = [
-    { name: "Apartments", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Amenities", href: "#" },
-    { name: "FAQs", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Partner with us", href: "#" },
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/about" },
+    { name: "House Rules", href: "/house-rules" },
   ]
 
   const tenantLinks = [
@@ -21,9 +18,6 @@ export function Footer() {
 
   const socialLinks = [
     { name: "Instagram", icon: Instagram, href: "#" },
-    { name: "Facebook", icon: Facebook, href: "#" },
-    { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "YouTube", icon: Youtube, href: "#" },
   ]
 
   return (

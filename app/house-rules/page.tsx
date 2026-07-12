@@ -202,6 +202,27 @@ export default function HouseRulesPage() {
         </div>
       </section>
 
+      {/* Payment Notice Section */}
+      <section className="py-16 md:py-24 bg-red-600">
+        <div className="container-custom">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Important Notice!
+              </h2>
+            </div>
+            <div className="text-white space-y-4">
+              <p className="leading-relaxed">
+                AM Co-Living PG accepts payments only through the official payment system. Any payment made directly to an employee, agent, or any individual through cash, bank transfer, or any other mode is not valid and will not be considered for booking confirmation.
+              </p>
+              <p className="leading-relaxed">
+                For your safety and to avoid fraud, please do not make payments to anyone outside the AM Co-Living PG platform. All bookings are confirmed only after payment is successfully completed through the official payment system.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Closing Section */}
       <section className="py-16 md:py-24 bg-neutral-50">
         <div className="container-custom">

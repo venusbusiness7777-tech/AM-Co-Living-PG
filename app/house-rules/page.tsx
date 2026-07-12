@@ -220,7 +220,7 @@ export default function HouseRulesPage() {
               </p>
               <div className="flex flex-wrap items-center pt-6" style={{ gap: "32px" }}>
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pngtree-google-pay-payment-icon-vector-png-image_12256719-removebg-preview-HgaSZd90SWwVeb8on0uOlRKaEhf0jz.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/google-pay-gpay-logo-11530962961mwws81tde9-removebg-preview-7DilxQljPiPMA82Jo9WRz2yYcktDhd.png"
                   alt="Google Pay"
                   className="object-contain"
                   style={{ borderRadius: "4px", width: "80px", height: "80px" }}

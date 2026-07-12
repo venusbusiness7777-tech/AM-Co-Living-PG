@@ -121,7 +121,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 font-sans" style={{ fontFamily: '"Geist", sans-serif' }}>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 font-sans" style={{ fontFamily: '"Geist", sans-serif', fontSize: "18px" }}>
               {features.map((feature) => (
                 <div
                   key={feature.title}
@@ -129,18 +129,18 @@ export default function AboutPage() {
                 >
                   <div className="flex flex-col h-full">
                     <div className="mb-4">
-                      <div className="text-4xl mb-3 transform group-hover:scale-110 transition-transform duration-300">
+                      <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300" style={{ fontSize: "30px" }}>
                         {feature.icon}
                       </div>
-                      <h3 className="text-sm font-semibold text-neutral-900 leading-snug mb-2">
+                      <h3 className="font-semibold text-neutral-900 leading-snug mb-2" style={{ fontSize: "16px" }}>
                         {feature.title}
                       </h3>
-                      <p className="text-xs text-neutral-600 leading-relaxed">
+                      <p className="text-neutral-600 leading-relaxed" style={{ fontSize: "14px" }}>
                         {feature.description}
                       </p>
                     </div>
                     <div className="flex items-center mt-auto pt-4 border-t border-neutral-100">
-                      <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-[#f2703b]/10 text-[#f2703b]">
+                      <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-[#22d200]/10" style={{ color: "#22d200" }}>
                         <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                         </svg>

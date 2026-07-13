@@ -56,13 +56,13 @@ export function Header() {
           </motion.div>
 
           {/* Desktop Navigation Links - Right Aligned */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8" style={{ color: "#060505", fontSize: "18px" }}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors duration-200",
+                  "font-medium transition-colors duration-200",
                   isActive(link)
                     ? isScrolled
                       ? "text-neutral-900 border-b-2 border-neutral-900"

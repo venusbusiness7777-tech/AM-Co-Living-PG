@@ -139,10 +139,10 @@ export default function AboutPage() {
                           <div style={{ fontSize: "30px" }}>{feature.icon}</div>
                         )}
                       </div>
-                      <h3 className="font-semibold text-neutral-900 leading-snug mb-2" style={{ fontSize: "16px" }}>
+                      <h3 className="font-semibold text-neutral-900 leading-snug mb-2" style={{ fontSize: "18px" }}>
                         {feature.title}
                       </h3>
-                      <p className="text-neutral-600 leading-relaxed" style={{ fontSize: "14px" }}>
+                      <p className="text-neutral-600 leading-relaxed" style={{ fontSize: "16px" }}>
                         {feature.description}
                       </p>
                     </div>

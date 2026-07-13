@@ -9,7 +9,8 @@ export const metadata = {
 
 interface Feature {
   title: string
-  icon: string
+  iconUrl?: string
+  icon?: string
   description: string
 }
 
@@ -17,32 +18,32 @@ export default function AboutPage() {
   const features: Feature[] = [
     {
       title: "Fully Furnished & Move-in Ready Rooms",
-      icon: "🛏️",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%282%29-esNJezc8YVTFVRqbykA2nSuqTno7Nv.png",
       description: "Complete with all essentials for immediate occupancy"
     },
     {
       title: "High-Speed Wi-Fi",
-      icon: "📶",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%281%29-RCCG5p9BpXI2b96OU8bcNkxigge6xR.png",
       description: "Fast and reliable internet connectivity"
     },
     {
       title: "Nutritious Home-Style Meals",
-      icon: "🍽️",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%283%29-b0i9wdodK9SjeWUYfk7820D01LZo8S.png",
       description: "Healthy and delicious meals prepared fresh daily"
     },
     {
       title: "24/7 Security & CCTV Surveillance",
-      icon: "🔒",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%286%29-XTxUYcvDwpoIgYR3wmx55UVIYs9CuA.png",
       description: "Round-the-clock safety and monitoring"
     },
     {
       title: "Daily Housekeeping",
-      icon: "🧹",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%284%29-El8bvR0jBcFHEElamJxJsTWEG62zlf.png",
       description: "Professional cleaning and maintenance staff"
     },
     {
       title: "Prime Location with Easy Metro/ Bus Access with 200 mtr.",
-      icon: "🚇",
+      iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%285%29-V27ljl5L81W3otXHxnN0e12yjwgjEu.png",
       description: "Convenient transportation and connectivity"
     },
     {
@@ -129,8 +130,14 @@ export default function AboutPage() {
                 >
                   <div className="flex flex-col h-full">
                     <div className="mb-4">
-                      <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300" style={{ fontSize: "30px" }}>
-                        {feature.icon}
+                      <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
+                        {feature.iconUrl ? (
+                          <div className="w-12 h-12">
+                            <img src={feature.iconUrl} alt={feature.title} className="w-full h-full object-contain" />
+                          </div>
+                        ) : (
+                          <div style={{ fontSize: "30px" }}>{feature.icon}</div>
+                        )}
                       </div>
                       <h3 className="font-semibold text-neutral-900 leading-snug mb-2" style={{ fontSize: "16px" }}>
                         {feature.title}

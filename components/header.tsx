@@ -24,6 +24,7 @@ export function Header() {
     { href: "/", label: "Home", activeMatch: (path) => path === "/" },
     { href: "/about", label: "About Us", activeMatch: (path) => path === "/about" },
     { href: "/house-rules", label: "House Rules", activeMatch: (path) => path === "/house-rules" },
+    { href: "/contact", label: "Contact", activeMatch: (path) => path === "/contact" },
   ]
 
   const isActive = (link) => link.activeMatch(pathname)

@@ -29,7 +29,7 @@ export default function ContactPage() {
       icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%289%29-kFItfgDciJrnlvZKhGLMKYOUBwsEmK.png",
       title: "Office Hours",
       content: "9:00 AM - 6:00 PM",
-      details: "Monday to Saturday",
+      details: "Monday to Sunday",
     },
     {
       icon: "🚇",

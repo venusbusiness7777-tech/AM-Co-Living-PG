@@ -42,7 +42,7 @@ export default function AboutPage() {
       description: "Professional cleaning and maintenance staff"
     },
     {
-      title: "Prime Location with Easy Metro/ Bus Access with 200 mtr.",
+      title: "Prime Location with Easy Metro/ Bus Access with 150 mtr.",
       iconUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%285%29-V27ljl5L81W3otXHxnN0e12yjwgjEu.png",
       description: "Convenient transportation and connectivity"
     },

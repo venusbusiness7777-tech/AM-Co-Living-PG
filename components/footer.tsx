@@ -21,7 +21,7 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 text-sm text-center border-t border-white/20 pt-8" style={{ fontFamily: '"Inter", sans-serif', color: 'rgba(78, 76, 76, 0.8)' }}>
             <p style={{ color: 'rgba(11, 11, 10, 0.8)' }}>&copy; {currentYear} AM Co-Living PG. All rights reserved.</p>
             <div className="flex space-x-6">
-              <a href="#" className="transition-colors" style={{ color: '#5b4c4c' }}>
+              <a href="/privacy-policy" className="transition-colors hover:text-[rgb(255,125,0)]" style={{ color: '#5b4c4c' }}>
                 Privacy Policy
               </a>
               <a href="#" className="transition-colors" style={{ color: '#5b4c4c' }}>

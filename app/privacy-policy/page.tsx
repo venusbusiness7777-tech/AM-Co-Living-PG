@@ -68,17 +68,6 @@ export default function PrivacyPolicyPage() {
       content: "We implement appropriate technical and organizational security measures to protect your personal information from unauthorized access, misuse, loss, or disclosure. While we strive to protect your information, no method of online transmission or electronic storage is completely secure.",
     },
     {
-      title: "Cookies",
-      content: "Our website may use cookies to:",
-      items: [
-        "Improve website functionality.",
-        "Remember user preferences.",
-        "Analyze website traffic and performance.",
-        "Enhance your browsing experience.",
-      ],
-      note: "You may disable cookies through your browser settings; however, some website features may not function properly.",
-    },
-    {
       title: "Third-Party Links",
       content: "Our website may contain links to third-party websites such as Google Maps or social media platforms. We are not responsible for the privacy practices or content of these external websites. We encourage you to review their respective privacy policies.",
     },

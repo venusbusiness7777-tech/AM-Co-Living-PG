@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Geist, Roboto, Poppins, Fira_Sans, Rubik, Nunito, Open_Sans, Playfair_Display, JetBrains_Mono, DM_Sans, Quicksand, Work_Sans } from "next/font/google"
+import { Inter, Geist, Roboto, Poppins, Fira_Sans, Rubik, Nunito, Open_Sans, Playfair_Display, JetBrains_Mono, DM_Sans, Quicksand, Work_Sans, Karla } from "next/font/google"
 import "./globals.css"
 import { SplashScreen } from "@/components/splash-screen"
 
@@ -93,6 +93,13 @@ const workSans = Work_Sans({
   variable: "--font-work-sans",
 })
 
+const karla = Karla({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-karla",
+})
+
 export const metadata: Metadata = {
   title: "Katachi — Design furniture for spaces that breathe.",
   description: "Architected in Belgium, built to last—timeless pieces.",
@@ -136,7 +143,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${geist.variable} ${roboto.variable} ${poppins.variable} ${firaSans.variable} ${rubik.variable} ${nunito.variable} ${openSans.variable} ${playfairDisplay.variable} ${jetBrainsMono.variable} ${dmSans.variable} ${quicksand.variable} ${workSans.variable} antialiased`}>
+    <html lang="en" className={`${inter.variable} ${geist.variable} ${roboto.variable} ${poppins.variable} ${firaSans.variable} ${rubik.variable} ${nunito.variable} ${openSans.variable} ${playfairDisplay.variable} ${jetBrainsMono.variable} ${dmSans.variable} ${quicksand.variable} ${workSans.variable} ${karla.variable} antialiased`}>
       <body className="font-sans bg-neutral-50 text-neutral-900 overflow-x-hidden">
         <SplashScreen />
         {children}

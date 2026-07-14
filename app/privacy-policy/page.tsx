@@ -142,7 +142,7 @@ export default function PrivacyPolicyPage() {
         >
           <div className="container-custom">
             <motion.div variants={itemVariants} className="max-w-3xl">
-              <p className="text-base md:text-lg text-neutral-700 leading-relaxed" style={{ fontFamily: '"Inter", sans-serif' }}>
+              <p className="text-base md:text-lg text-neutral-700 leading-relaxed" style={{ fontFamily: '"Geist", sans-serif', textAlign: 'justify' }}>
                 At AM Co-Living, we value your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, store, and safeguard your information when you visit our website or use our services.
               </p>
             </motion.div>
@@ -160,17 +160,17 @@ export default function PrivacyPolicyPage() {
           <div className="container-custom">
             <div className="max-w-3xl space-y-12 md:space-y-16">
               {sections.map((section, index) => (
-                <motion.div key={index} variants={itemVariants} className="space-y-4">
-                  <h2 className="text-2xl md:text-3xl font-bold text-neutral-900" style={{ fontFamily: '"Roboto", sans-serif' }}>
+                <motion.div key={index} variants={itemVariants} className="space-y-4" style={{ fontFamily: '"Geist", sans-serif' }}>
+                  <h2 className="text-2xl md:text-3xl font-bold text-neutral-900" style={{ fontFamily: '"Geist", sans-serif' }}>
                     {section.title}
                   </h2>
-                  <p className="text-base md:text-lg text-neutral-700 leading-relaxed" style={{ fontFamily: '"Inter", sans-serif' }}>
+                  <p className="text-base md:text-lg text-neutral-700 leading-relaxed" style={{ fontFamily: '"Geist", sans-serif', textAlign: 'left' }}>
                     {section.content}
                   </p>
                   {section.items && (
-                    <ul className="space-y-3 ml-4">
+                    <ul className="space-y-3 ml-4" style={{ fontFamily: '"Geist", sans-serif' }}>
                       {section.items.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-3 text-neutral-700" style={{ fontFamily: '"Inter", sans-serif' }}>
+                        <li key={idx} className="flex items-start gap-3 text-neutral-700" style={{ fontFamily: '"Geist", sans-serif' }}>
                           <span className="inline-flex items-center justify-center h-6 w-6 rounded-full flex-shrink-0 mt-0.5" style={{ backgroundColor: "rgb(255, 125, 0)", color: "white" }}>
                             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -182,7 +182,7 @@ export default function PrivacyPolicyPage() {
                     </ul>
                   )}
                   {section.note && (
-                    <p className="text-base md:text-lg text-neutral-600 italic border-l-4 border-[rgb(255,125,0)] pl-4 mt-4" style={{ fontFamily: '"Inter", sans-serif' }}>
+                    <p className="text-base md:text-lg text-neutral-600 italic border-l-4 border-[rgb(255,125,0)] pl-4 mt-4" style={{ fontFamily: '"Geist", sans-serif', textAlign: 'left' }}>
                       {section.note}
                     </p>
                   )}
@@ -202,13 +202,13 @@ export default function PrivacyPolicyPage() {
         >
           <div className="container-custom">
             <motion.div variants={itemVariants} className="max-w-3xl">
-              <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-6" style={{ fontFamily: '"Roboto", sans-serif' }}>
+              <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-6" style={{ fontFamily: '"Geist", sans-serif' }}>
                 Contact Us
               </h2>
-              <p className="text-base md:text-lg text-neutral-700 leading-relaxed mb-6" style={{ fontFamily: '"Inter", sans-serif' }}>
+              <p className="text-base md:text-lg text-neutral-700 leading-relaxed mb-6" style={{ fontFamily: '"Geist", sans-serif' }}>
                 If you have any questions regarding this Privacy Policy or how your information is handled, please contact us.
               </p>
-              <div className="space-y-3" style={{ fontFamily: '"Inter", sans-serif' }}>
+              <div className="space-y-3" style={{ fontFamily: '"Geist", sans-serif' }}>
                 <p className="text-neutral-800">
                   <strong>AM Co-Living PG</strong>
                 </p>

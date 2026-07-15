@@ -37,7 +37,7 @@ const faqItems: FAQItem[] = [
   },
   {
     question: "What are the check-in and check-out procedures?",
-    answer: "Check-in is available from 2 PM onwards with a property walk-through. Check-out must be completed by 10 AM on your last day. Your security deposit will be refunded within 7 days after final inspection.",
+    answer: "Check-in is available from 2 PM onwards with a property walk-through. Check-out must be completed by 10 AM on your last day. Your security deposit will be refunded within 3 days after final inspection.",
   },
 ]
 

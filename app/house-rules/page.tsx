@@ -119,9 +119,9 @@ export default function HouseRulesPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 md:pt-32 pb-12 md:pb-16 bg-gradient-to-b from-neutral-50 to-white">
+      <section className="pt-16 md:pt-20 pb-8 md:pb-10 bg-gradient-to-b from-neutral-50 to-white">
         <div className="container-custom">
-          <div className="text-center mb-12">
+          <div className="text-center mb-">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#f2703b] mb-6" style={{ fontSize: "48px", fontFamily: '"Roboto", sans-serif' }}>
               House Rules
             </h1>
@@ -228,7 +228,7 @@ export default function HouseRulesPage() {
               <p className="leading-relaxed" style={{ textAlign: "justify" }}>
                 For your safety and to avoid fraud, please do not make payments to anyone outside the AM Co-Living PG platform. All bookings are confirmed only after payment is successfully completed through the official payment system.
               </p>
-              <div className="flex flex-wrap items-center pt-6" style={{ gap: "32px", justifyContent: "center" }}>
+              <div className="flex flex-wrap items-center pt-6" style={{ gap: "22px", justifyContent: "center" }}>
                 <img
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/google-pay-gpay-logo-11530962961mwws81tde9-removebg-preview-7DilxQljPiPMA82Jo9WRz2yYcktDhd.png"
                   alt="Google Pay"

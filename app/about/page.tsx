@@ -64,14 +64,14 @@ export default function AboutPage() {
 
       <main className="min-h-screen bg-white pt-1">
         {/* Hero Section */}
-        <section className="py-16 md:py-24 lg:py-32">
+        <section className="py-16 md:py-10 lg:py-22">
           <div className="container-custom">
             <div className="text-center mb-12 md:mb-16" style={{ fontFamily: '"Quicksand", sans-serif' }}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[rgb(58,58,52)] mb-6" style={{ fontSize: "23px", fontFamily: '"Inter", sans-serif' }}>
                 About
               </h1>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[#f56b35] mb-6" style={{ fontSize: "48px", fontFamily: '"Roboto", sans-serif' }}>
-                AM Co-Living PG
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-[rgb(242,112,59)] mb-6" style={{ fontSize: "48px", fontFamily: '"Roboto", sans-serif' }}>
+                AM Co-Living
               </h1>
               <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto" style={{ fontFamily: '"Inter", sans-serif' }}>
                 A Place That Feels Like Home Always!
@@ -89,10 +89,10 @@ export default function AboutPage() {
                   Our Mission
                 </h2>
                 <div className="space-y-6" style={{ fontFamily: '"Geist", sans-serif' }}>
-                  <p className="text-base md:text-lg text-[#120000] leading-relaxed font-sans">
+                  <p className="text-base md:text-lg text-[#120000] leading-relaxed font-sans text-justify" style={{ fontSize: "19px" }}>
                     At AM Co-Living PG, we believe that a great living experience goes beyond just providing a room. We offer safe, comfortable, and fully furnished accommodation designed to make students and working professionals feel at home from the very first day.
                   </p>
-                  <p className="text-base md:text-lg text-black leading-relaxed font-sans">
+                  <p className="text-base md:text-lg text-black leading-relaxed font-sans text-justify" style={{ fontSize: "19px" }}>
                     Our thoughtfully designed spaces combine modern amenities with a welcoming community, creating the perfect environment to live, work, study, and relax. Whether you're relocating for education or your career, we ensure a hassle-free stay with everything you need under one roof.
                   </p>
                 </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium text-neutral-900 mb-4">
                 Why Choose AM Co-Living?
               </h2>
-              <p className="text-base md:text-lg text-neutral-600 max-w-7xl mx-auto font-geist text-justify">
+              <p className="text-base md:text-lg max-w-7xl mx-auto font-geist text-justify" style={{ color: "#1d1b1c" }}>
                 Keeping this dynamic situation in mind, many students and white collared professionals flock to Pune in search of various opportunities. This further takes them to choose Paying Guests as an economical option of living. Shared living space or coliving space is the modern form of living where fellow mates are offered a host of living alternatives to choose from. With a host of facilities alongside, these spaces are focusing on features like advantages like flexibility, affordability and a sense of unity.
               </p>
             </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
                       <h3 className="font-semibold text-neutral-900 leading-snug mb-2" style={{ fontSize: "18px" }}>
                         {feature.title}
                       </h3>
-                      <p className="text-neutral-600 leading-relaxed" style={{ fontSize: "16px" }}>
+                      <p className="text-neutral-600 leading-relaxed" style={{ fontSize: "18px" }}>
                         {feature.description}
                       </p>
                     </div>
@@ -167,7 +167,7 @@ export default function AboutPage() {
               <h2 className="text-2xl md:text-4xl lg:text-5xl font-medium text-neutral-900 mb-6">
                 A Community You'll Love ❤️
               </h2>
-              <p className="text-base md:text-lg text-[#040002] leading-relaxed text-justify font-sans">
+              <p className="text-base md:text-lg leading-relaxed text-justify font-sans" style={{ color: "#210513" }}>
                 More than just a PG, AM Co-Living is a place where friendships grow, opportunities begin, and every resident enjoys a comfortable lifestyle with modern facilities and a supportive environment. We're dedicated to creating a space where you can truly belong.
               </p>
             </div>

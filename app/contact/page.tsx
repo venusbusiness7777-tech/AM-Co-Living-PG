@@ -240,8 +240,8 @@ export default function ContactPage() {
             >
               <a
                 href="tel:9067372121"
-                className="inline-flex items-center justify-center px-8 md:px-10 py-4 md:py-4 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300"
-                style={{ background: "linear-gradient(to right in oklab, rgb(255, 125, 0) 0%, rgb(255, 140, 20) 100%)", fontFamily: '"Inter", sans-serif' }}
+                className="inline-flex items-center justify-center px-8 md:px-10 py-4 md:py-4 text-white rounded-lg hover:shadow-lg transition-all duration-300"
+                style={{ background: "linear-gradient(to right in oklab, rgb(255, 125, 0) 0%, rgb(255, 140, 20) 100%)", fontFamily: '"Inter", sans-serif', fontWeight: "400" }}
               >
                 Book Your Stay
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

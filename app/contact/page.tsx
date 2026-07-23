@@ -108,7 +108,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <img src={contactInfo[0].icon} alt="Address" className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-wider">ADDRESS</h3>
+                    <h3 className="text-lg font-medium text-slate-900 mb-1 tracking-wider">Address</h3>
                     <p className="text-lg text-slate-700 mb-2" style={{ fontWeight: "400" }}>{contactInfo[0].content}</p>
                     <p className="text-base text-slate-600">{contactInfo[0].details}</p>
                   </div>
@@ -120,7 +120,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <img src={contactInfo[1].icon} alt="Phone" className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-wider">PHONE</h3>
+                    <h3 className="text-lg font-medium text-slate-900 mb-1 uppercase tracking-wider">PHONE</h3>
                     <p className="text-lg text-slate-700" style={{ fontWeight: "400" }}>{contactInfo[1].content}</p>
                     <p className="text-base text-slate-600 mt-1">{contactInfo[1].details}</p>
                   </div>
@@ -132,7 +132,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <img src={contactInfo[3].icon} alt="Office Hours" className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-wider">OFFICE HOURS</h3>
+                    <h3 className="text-lg font-medium text-slate-900 mb-1 uppercase tracking-wider">OFFICE HOURS</h3>
                     <p className="text-lg text-slate-700 mb-1" style={{ fontWeight: "400" }}>{contactInfo[3].content}</p>
                     <p className="text-base text-slate-600">{contactInfo[3].details}</p>
                   </div>
@@ -144,7 +144,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <img src={contactInfo[2].icon} alt="Email" className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-1 uppercase tracking-wider">EMAIL</h3>
+                    <h3 className="text-lg font-medium text-slate-900 mb-1 uppercase tracking-wider">EMAIL</h3>
                     <p className="text-lg text-slate-700" style={{ fontWeight: "400" }}>{contactInfo[2].content}</p>
                     <p className="text-base text-slate-600 mt-1">{contactInfo[2].details}</p>
                   </div>
@@ -157,7 +157,7 @@ export default function ContactPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="tel:9067372121"
-                    className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition-all duration-300"
+                    className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-all duration-300"
                   >
                     <span>CALL NOW</span>
                   </a>
@@ -165,7 +165,7 @@ export default function ContactPage() {
                     href="https://wa.me/9067372121"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-all duration-300"
+                    className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-all duration-300"
                   >
                     <span>WHATSAPP</span>
                   </a>
@@ -208,7 +208,7 @@ export default function ContactPage() {
                   href="https://maps.app.goo.gl/2EhxRud6or69wnqe8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-800 transition-all duration-300"
+                  className="inline-flex items-center justify-center w-full px-6 py-3 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-all duration-300"
                 >
                   OPEN IN GOOGLE MAPS
                 </a>
@@ -240,8 +240,8 @@ export default function ContactPage() {
             >
               <a
                 href="tel:9067372121"
-                className="inline-flex items-center justify-center px-8 md:px-10 py-4 md:py-4 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300"
-                style={{ background: "linear-gradient(to right in oklab, rgb(255, 125, 0) 0%, rgb(255, 140, 20) 100%)", fontFamily: '"DM Sans", sans-serif' }}
+                className="inline-flex items-center justify-center px-8 md:px-10 py-4 md:py-4 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300"
+                style={{ background: "linear-gradient(to right in oklab, rgb(255, 125, 0) 0%, rgb(255, 140, 20) 100%)", fontFamily: '"Inter", sans-serif' }}
               >
                 Book Your Stay
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

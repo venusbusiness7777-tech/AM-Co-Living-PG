@@ -133,7 +133,7 @@ export default function HouseRulesPage() {
       </section>
 
       {/* Rules with Image Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24" style={{ paddingTop: "20px", paddingBottom: "66px" }}>
         <div className="container-custom">
           {/* Image at Top */}
           <div className="flex justify-center mb-16">
@@ -159,7 +159,7 @@ export default function HouseRulesPage() {
                   </div>
                   <ul className="space-y-2">
                     {rule.items.map((item, idx) => (
-                      <li key={idx} className="text-sm text-neutral-600 flex gap-2">
+                      <li key={idx} className="text-base text-neutral-600 flex gap-2">
                         <span className="text-[#f2703b] font-bold">•</span>
                         <span>{item}</span>
                       </li>
@@ -179,7 +179,7 @@ export default function HouseRulesPage() {
                   </div>
                   <ul className="space-y-2">
                     {rule.items.map((item, idx) => (
-                      <li key={idx} className="text-sm text-neutral-600 flex gap-2">
+                      <li key={idx} className="text-base text-neutral-600 flex gap-2">
                         <span className="text-[#f2703b] font-bold">•</span>
                         <span>{item}</span>
                       </li>
@@ -199,7 +199,7 @@ export default function HouseRulesPage() {
                   </div>
                   <ul className="space-y-2">
                     {rule.items.map((item, idx) => (
-                      <li key={idx} className="text-sm text-neutral-600 flex gap-2">
+                      <li key={idx} className="text-base text-neutral-600 flex gap-2">
                         <span className="text-[#f2703b] font-bold">•</span>
                         <span>{item}</span>
                       </li>
@@ -254,7 +254,7 @@ export default function HouseRulesPage() {
       </section>
 
       {/* Closing Section */}
-      <section className="py-16 md:py-24 bg-neutral-50">
+      <section className="py-16 md:py-24 bg-neutral-50" style={{ paddingTop: "50px", paddingBottom: "50px" }}>
         <div className="container-custom">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-medium text-neutral-900 mb-6">
